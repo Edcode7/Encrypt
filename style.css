@@ -1,0 +1,152 @@
+* {
+  background-color: #609ed4;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 150%;
+}
+
+.logo {
+  padding-top: 5px;
+  margin-left: 5px;
+  width: 2%;
+}
+
+main {
+  display: flex;
+  margin-bottom: 5px;
+  margin-left: 200px;
+}
+
+.txt-area {
+  border: none;
+  color: #0a3871;
+  margin-top: 50px;
+  height: 300px;
+  text-transform: lowercase;
+}
+
+.txt-area::-webkit-scrollbar {
+  width: 12px; /* Ancho del scrollbar vertical */
+}
+.txt-area::-webkit-scrollbar-thumb {
+  background-color: #0a3871; /* Color del pulgar */
+  border-radius: 10px; /* Bordes redondeados */
+}
+.txt-area::-webkit-scrollbar-thumb:hover {
+  background-color: #d8dfe8; /* Color del pulgar al pasar el ratón */
+}
+
+.txt-area::-webkit-scrollbar-track {
+  background: transparent; /* Hacer el track completamente transparente */
+}
+
+::placeholder {
+  color: #0a3871;
+}
+
+.txt-area:focus {
+  outline: none;
+}
+
+.txt-result {
+  display: flex;
+  align-items: center;
+  background: white;
+  background-image: url("img/Muñeco.png");
+  background-size: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  width: 32%;
+  height: 85%;
+  border-radius: 24px;
+  margin-left: 80px;
+  margin-top: 1px;
+  position: fixed;
+  padding-top: 5px;
+  resize: none;
+  overflow: auto;
+  outline: none;
+  cursor: default;
+  align-items: flex-end;
+}
+
+.txt-final {
+  border: none;
+  width: 100%;
+  height: 85%;
+  margin-bottom: 60px;
+  box-sizing: border-box;
+  resize: none;
+  overflow: auto;
+  white-space: pre-wrap;
+  outline: none;
+  cursor: default;
+  font-size: 20px;
+  padding: 10px;
+  padding-bottom: 60px;
+  line-height: 1.5;
+  background: transparent;
+}
+
+.btn-cont2 {
+  position: absolute;
+  bottom: 2px;
+  left: 37%;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.5);
+  padding: 5px;
+}
+
+.txt-final::-webkit-scrollbar {
+  display: none; /* Oculta las barras de desplazamiento en WebKit browsers (Chrome, Safari) */
+}
+.txt-final:focus {
+  outline: none;
+}
+
+.buttons {
+  display: flex;
+  margin-top: 1px;
+}
+
+.btn-enc {
+  background-color: #0a3871;
+  border: #0a3871;
+  border-radius: 24px;
+  color: white;
+  cursor: pointer;
+  height: 40px;
+  width: 200px;
+  font-size: 20px;
+}
+
+.btn-desc {
+  background: #d8dfe8;
+  border: 1px solid #0a3871;
+  border-radius: 24px;
+  color: #0a3871;
+  cursor: pointer;
+  height: 40px;
+  margin-left: 30px;
+  width: 200px;
+  font-size: 20px;
+}
+
+.btn-cp {
+  background: #d8dfe8;
+  border: 1px solid #0a3871;
+  margin-left: 90px;
+  border-radius: 24px;
+  color: #0a3871;
+  cursor: pointer;
+  height: 40px;
+  width: 200px;
+  font-size: 20px;
+}
+
+.information {
+  color: #495057;
+  font-size: 18px;
+}
